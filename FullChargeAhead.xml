@@ -1,0 +1,350 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="D">
+  <design>
+    <source>/home/kendalld/PCBs/FullChargeAhead/FullChargeAhead.sch</source>
+    <date>Sat 05 Mar 2016 04:07:49 PM PST</date>
+    <tool>Eeschema 4.0.2-4+6225~38~ubuntu14.04.1-stable</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>FullChargeAhead.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="D101">
+      <value>NOPOP</value>
+      <footprint>LEDs:LED_0805</footprint>
+      <libsource lib="device" part="LED"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>56D76C9C</tstamp>
+    </comp>
+    <comp ref="D102">
+      <value>LED</value>
+      <footprint>LEDs:LED_0805</footprint>
+      <libsource lib="device" part="LED"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>56D76D29</tstamp>
+    </comp>
+    <comp ref="D103">
+      <value>LED</value>
+      <footprint>LEDs:LED_0805</footprint>
+      <libsource lib="device" part="LED"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>56D76D52</tstamp>
+    </comp>
+    <comp ref="R103">
+      <value>NOPOP</value>
+      <footprint>Resistors_SMD:R_0805_HandSoldering</footprint>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>56D76D7A</tstamp>
+    </comp>
+    <comp ref="R102">
+      <value>470</value>
+      <footprint>Resistors_SMD:R_0805_HandSoldering</footprint>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>56D76E17</tstamp>
+    </comp>
+    <comp ref="R101">
+      <value>470</value>
+      <footprint>Resistors_SMD:R_0805_HandSoldering</footprint>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>56D76E75</tstamp>
+    </comp>
+    <comp ref="R106">
+      <value>2K</value>
+      <footprint>Resistors_SMD:R_0805_HandSoldering</footprint>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>56D77C08</tstamp>
+    </comp>
+    <comp ref="R105">
+      <value>10K</value>
+      <footprint>Resistors_SMD:R_0805_HandSoldering</footprint>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>56D77D2E</tstamp>
+    </comp>
+    <comp ref="C102">
+      <value>4.7u</value>
+      <footprint>Capacitors_SMD:C_1206_HandSoldering</footprint>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>56D77E6F</tstamp>
+    </comp>
+    <comp ref="P103">
+      <value>CONN_01X02</value>
+      <footprint>Pin_Headers:Pin_Header_Straight_1x02</footprint>
+      <libsource lib="conn" part="CONN_01X02"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>56D7845F</tstamp>
+    </comp>
+    <comp ref="C101">
+      <value>4.7u</value>
+      <footprint>Capacitors_SMD:C_1206_HandSoldering</footprint>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>56D7930F</tstamp>
+    </comp>
+    <comp ref="P101">
+      <value>USB_OTG</value>
+      <footprint>Footprints:USB_Micro-B</footprint>
+      <fields>
+        <field name="MPN">Value</field>
+      </fields>
+      <libsource lib="conn" part="USB_OTG"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>56D79676</tstamp>
+    </comp>
+    <comp ref="U101">
+      <value>MCP73834-FCI/UN</value>
+      <footprint>Housings_SSOP:MSOP-10_3x3mm_Pitch0.5mm</footprint>
+      <libsource lib="FullChargeAhead" part="MCP73834-FCI/UN"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>56D7CA81</tstamp>
+    </comp>
+    <comp ref="R104">
+      <value>470</value>
+      <footprint>Resistors_SMD:R_0805_HandSoldering</footprint>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>56D7CD0E</tstamp>
+    </comp>
+    <comp ref="P102">
+      <value>CONN_01X02</value>
+      <footprint>Pin_Headers:Pin_Header_Straight_1x02</footprint>
+      <libsource lib="conn" part="CONN_01X02"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>56D7D03B</tstamp>
+    </comp>
+    <comp ref="R107">
+      <value>NOPOP</value>
+      <footprint>Resistors_SMD:R_0805_HandSoldering</footprint>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>56D822E2</tstamp>
+    </comp>
+    <comp ref="R108">
+      <value>NOPOP</value>
+      <footprint>Resistors_SMD:R_0805_HandSoldering</footprint>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>56D8270D</tstamp>
+    </comp>
+    <comp ref="R109">
+      <value>NOPOP</value>
+      <footprint>Resistors_SMD:R_0805_HandSoldering</footprint>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>56D8275F</tstamp>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="device" part="C">
+      <description>Unpolarized capacitor</description>
+      <footprints>
+        <fp>C?</fp>
+        <fp>C_????_*</fp>
+        <fp>C_????</fp>
+        <fp>SMD*_c</fp>
+        <fp>Capacitor*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="conn" part="CONN_01X02">
+      <description>Connector 01x02</description>
+      <footprints>
+        <fp>Pin_Header_Straight_1X02</fp>
+        <fp>Pin_Header_Angled_1X02</fp>
+        <fp>Socket_Strip_Straight_1X02</fp>
+        <fp>Socket_Strip_Angled_1X02</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">P</field>
+        <field name="Value">CONN_01X02</field>
+      </fields>
+      <pins>
+        <pin num="1" name="P1" type="passive"/>
+        <pin num="2" name="P2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="device" part="LED">
+      <footprints>
+        <fp>LED-3MM</fp>
+        <fp>LED-5MM</fp>
+        <fp>LED-10MM</fp>
+        <fp>LED-0603</fp>
+        <fp>LED-0805</fp>
+        <fp>LED-1206</fp>
+        <fp>LEDV</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">LED</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="FullChargeAhead" part="MCP73834-FCI/UN">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">MCP73834-FCI/UN</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Vdd" type="power_in"/>
+        <pin num="2" name="Vdd" type="power_in"/>
+        <pin num="3" name="Stat1" type="input"/>
+        <pin num="4" name="Stat2" type="input"/>
+        <pin num="5" name="Vss" type="power_in"/>
+        <pin num="6" name="Prog" type="input"/>
+        <pin num="7" name="~TE" type="input"/>
+        <pin num="8" name="Therm" type="input"/>
+        <pin num="9" name="Vbat" type="power_in"/>
+        <pin num="10" name="Vbat" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="device" part="R">
+      <description>Resistor</description>
+      <footprints>
+        <fp>R_*</fp>
+        <fp>Resistor_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="conn" part="USB_OTG">
+      <description>micro/mini connector</description>
+      <footprints>
+        <fp>USB*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">P</field>
+        <field name="Value">USB_OTG</field>
+      </fields>
+      <pins>
+        <pin num="1" name="VCC" type="power_out"/>
+        <pin num="2" name="D-" type="passive"/>
+        <pin num="3" name="D+" type="passive"/>
+        <pin num="4" name="ID" type="power_in"/>
+        <pin num="5" name="GND" type="power_in"/>
+        <pin num="6" name="shield" type="passive"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="device">
+      <uri>/usr/share/kicad/library/device.lib</uri>
+    </library>
+    <library logical="FullChargeAhead">
+      <uri>/home/kendalld/PCBs/FullChargeAhead/FullChargeAhead.lib</uri>
+    </library>
+    <library logical="conn">
+      <uri>/usr/share/kicad/library/conn.lib</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="Net-(R103-Pad1)">
+      <node ref="R104" pin="1"/>
+      <node ref="U101" pin="7"/>
+      <node ref="R103" pin="1"/>
+    </net>
+    <net code="2" name="Net-(R105-Pad2)">
+      <node ref="R105" pin="2"/>
+      <node ref="U101" pin="8"/>
+    </net>
+    <net code="3" name="Net-(R106-Pad2)">
+      <node ref="R106" pin="2"/>
+      <node ref="U101" pin="6"/>
+    </net>
+    <net code="4" name="Net-(R102-Pad1)">
+      <node ref="R102" pin="1"/>
+      <node ref="U101" pin="4"/>
+    </net>
+    <net code="5" name="Net-(R101-Pad1)">
+      <node ref="U101" pin="3"/>
+      <node ref="R101" pin="1"/>
+    </net>
+    <net code="6" name="GND">
+      <node ref="P102" pin="2"/>
+      <node ref="P103" pin="2"/>
+      <node ref="C102" pin="2"/>
+      <node ref="U101" pin="5"/>
+      <node ref="R105" pin="1"/>
+      <node ref="R106" pin="1"/>
+      <node ref="P101" pin="6"/>
+      <node ref="P101" pin="5"/>
+      <node ref="C101" pin="2"/>
+    </net>
+    <net code="7" name="Net-(P101-Pad4)">
+      <node ref="R107" pin="2"/>
+      <node ref="P101" pin="4"/>
+    </net>
+    <net code="8" name="Net-(P101-Pad2)">
+      <node ref="P101" pin="2"/>
+      <node ref="R109" pin="2"/>
+    </net>
+    <net code="9" name="Net-(P101-Pad3)">
+      <node ref="P101" pin="3"/>
+      <node ref="R108" pin="2"/>
+    </net>
+    <net code="10" name="Net-(P102-Pad1)">
+      <node ref="P102" pin="1"/>
+      <node ref="R104" pin="2"/>
+    </net>
+    <net code="11" name="/Vdd">
+      <node ref="R108" pin="1"/>
+      <node ref="D103" pin="2"/>
+      <node ref="D102" pin="2"/>
+      <node ref="P101" pin="1"/>
+      <node ref="D101" pin="2"/>
+      <node ref="R107" pin="1"/>
+      <node ref="C101" pin="1"/>
+      <node ref="R109" pin="1"/>
+      <node ref="U101" pin="1"/>
+      <node ref="U101" pin="2"/>
+    </net>
+    <net code="12" name="Net-(D101-Pad1)">
+      <node ref="D101" pin="1"/>
+      <node ref="R103" pin="2"/>
+    </net>
+    <net code="13" name="Net-(D102-Pad1)">
+      <node ref="R102" pin="2"/>
+      <node ref="D102" pin="1"/>
+    </net>
+    <net code="14" name="Net-(D103-Pad1)">
+      <node ref="D103" pin="1"/>
+      <node ref="R101" pin="2"/>
+    </net>
+    <net code="15" name="/Vbat">
+      <node ref="U101" pin="9"/>
+      <node ref="U101" pin="10"/>
+      <node ref="P103" pin="1"/>
+      <node ref="C102" pin="1"/>
+    </net>
+  </nets>
+</export>

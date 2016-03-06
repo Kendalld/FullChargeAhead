@@ -1,0 +1,11 @@
+Reference, Quantity, Value, Footprint, Datasheet, MPN
+C101 C102 ,2,4.7u,Capacitors_SMD:C_1206_HandSoldering,
+D101 ,1,NOPOP,LEDs:LED_0805,
+D102 D103 ,2,LED,LEDs:LED_0805,
+P101 ,1,USB_OTG,Footprints:USB_Micro-B,,Value
+P102 P103 ,2,CONN_01X02,Pin_Headers:Pin_Header_Straight_1x02,
+R101 R102 R104 ,3,470,Resistors_SMD:R_0805_HandSoldering,
+R103 R107 R108 R109 ,4,NOPOP,Resistors_SMD:R_0805_HandSoldering,
+R105 ,1,10K,Resistors_SMD:R_0805_HandSoldering,
+R106 ,1,2K,Resistors_SMD:R_0805_HandSoldering,
+U101 ,1,MCP73834-FCI/UN,Housings_SSOP:MSOP-10_3x3mm_Pitch0.5mm,

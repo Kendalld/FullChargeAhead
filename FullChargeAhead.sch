@@ -296,8 +296,6 @@ Wire Wire Line
 Wire Wire Line
 	3100 2800 3100 2950
 Wire Wire Line
-	2200 2800 3350 2800
-Wire Wire Line
 	2800 2800 2800 3000
 Wire Wire Line
 	2800 3000 2600 3000
@@ -401,14 +399,20 @@ Wire Wire Line
 Wire Wire Line
 	2600 3300 2800 3300
 Wire Wire Line
-	3100 3300 3350 3300
-Wire Wire Line
-	3350 3300 3350 2800
-Connection ~ 3100 2800
-Wire Wire Line
 	3100 3200 3350 3200
 Connection ~ 3350 3200
 Wire Wire Line
 	3100 3100 3350 3100
-Connection ~ 3350 3100
+Text Label 5150 3400 0    60   ~ 0
+Vdd
+Text Label 7450 3400 0    60   ~ 0
+Vbat
+Wire Wire Line
+	3100 2800 2200 2800
+Wire Wire Line
+	3350 3100 3350 3400
+Connection ~ 3350 3400
+Wire Wire Line
+	3100 3300 3350 3300
+Connection ~ 3350 3300
 $EndSCHEMATC
